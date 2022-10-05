@@ -41,7 +41,7 @@ class Main extends Sprite
 	public static var gameVersion:String = '0.3.1';
 
 	var zoom:Float = -1; // If -1, zoom is automatically calculated to fit the window dimensions.
-	var skipSplash:Bool = true; // Whether to skip the flixel splash screen that appears in release mode.
+	var skipSplash:Bool = false; // Whether to skip the flixel splash screen that appears in release mode.
 	var infoCounter:Overlay; // initialize the heads up display that shows information before creating it.
 
 	// heres gameweeks set up!
@@ -59,19 +59,19 @@ class Main extends Sprite
 			['Bopeebo', 'Fresh', 'Dadbattle'],
 			['dad', 'dad', 'dad'],
 			[FlxColor.fromRGB(129, 100, 223)],
-			'vs. DADDY DEAREST'
+			'Vs. Daddy Dearest'
 		],
 		[
 			['Spookeez', 'South', 'Monster'],
 			['spooky', 'spooky', 'monster'],
 			[FlxColor.fromRGB(30, 45, 60)],
-			'Spooky Month'
+			'ITS A SPOOKY MONTH!!!'
 		],
 		[
 			['Pico', 'Philly-Nice', 'Blammed'],
 			['pico'],
 			[FlxColor.fromRGB(111, 19, 60)],
-			'vs. Pico'
+			'Vs. Pico'
 		],
 		[
 			['Satin-Panties', 'High', 'Milf'],
@@ -89,7 +89,7 @@ class Main extends Sprite
 			['Senpai', 'Roses', 'Thorns'],
 			['senpai', 'senpai', 'spirit'],
 			[FlxColor.fromRGB(206, 106, 169)],
-			"hating simulator ft. moawling"
+			"Hating Simulator ft. Moawling"
 		],
 	];
 
