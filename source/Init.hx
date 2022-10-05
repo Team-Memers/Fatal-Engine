@@ -162,7 +162,7 @@ class Init extends FlxState
 		"Custom Titlescreen" => [
 			false,
 			Checkmark,
-			"Enables the custom Forever Engine titlescreen! (only effective with a restart)",
+			"Enables the Forever Engine Legacy titlescreen! (only effective with a restart)",
 			FORCED
 		],
 		'Skip Text' => [
@@ -184,6 +184,13 @@ class Init extends FlxState
 			"Simplifies the judgement animations, displaying only one judgement / rating sprite at a time.",
 			NOT_FORCED
 		],
+		"UI Style" => [
+			'stepmania',
+			Selector,
+			"Chooses a style for the UI, kind of like Denpa Engine I think.",
+			NOT_FORCED,
+			['Forever Engine', 'FNF', 'TrollEngine']
+		]
 	];
 
 	public static var trueSettings:Map<String, Dynamic> = [];
