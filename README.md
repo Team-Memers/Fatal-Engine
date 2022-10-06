@@ -1,4 +1,4 @@
-# NOBODY TOUCH DIS BESIDES TY1991
+# NOBODY TOUCH DIS UNLESS YOU'RE UPDATING STUFF
 
 # [Fatal Engine](https://www.github.com/Goofgoof43/Fatal-Engine)
 Is an open-source, quality of life and performance driven [Friday Night Funkin'](https://www.newgrounds.com/portal/view/770371) mod engine!
