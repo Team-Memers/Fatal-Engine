@@ -1,43 +1,43 @@
-# [Forever Engine](https://github.com/Yoshubs/FunkinForever)
-An open-source, quality of life and performance driven [Friday Night Funkin'](https://www.newgrounds.com/portal/view/770371) mod engine!
+# [Fatal Engine](https://www.github.com/Goofgoof43/Fatal-Engine)
+Is an open-source, quality of life and performance driven [Friday Night Funkin'](https://www.newgrounds.com/portal/view/770371) mod engine!
+Inspired by the works of YoshiCrafter Engine, Psych Engine, and practically every other FNF' Engine
 ----------------------------------------------
 
+
+
+This was built off of
 ![image](https://media.discordapp.net/attachments/916918345255751690/930068118938730526/legacy.png)
 
 ----------------------------------------------
-The Friday Night Funkin' Forever Engine is an engine solely based on source code at the moment. Forever Engine is currently in legacy state as it is being rewritten. The legacy version of Forever Engine lacks accessibility and cohesion, something we are currently working to fix with the more newer and updated rewrite. Thank you for your patience.
+This is built off of the legacy version of Forever Engine. This version lacks accessibility and cohesion, something we are currently working to fix with the more newer and updated rewrite. Thank you for your patience.
 
-**FOREVER ENGINE IS ONLY MEANT TO BE USED ON DESKTOP! I AM NOT RESPONSIBLE FOR CRASHES/PROBLEMS WITH HTML5, NOR AM I RESPONSIBLE FOR MAINTAINING HTML5**
-
-**Please redirect all future and current enhancements to the [new repository](https://github.com/Yoshubs/FNF-Forever-Engine)**
-
+**FATAL ENGINE IS ONLY MEANT TO BE USED ON DESKTOP! I AM NOT RESPONSIBLE FOR CRASHES/PROBLEMS WITH HTML5, NOR AM I RESPONSIBLE FOR MAINTAINING HTML5**
 ----------------------------------------------
-Forever Engine FEATURES! - 
+Currently contains the following features from Forever Engine:
 Noteskins,
 Custom UIs,
 Options Menu with FPS Capping and adjustments
-A lot of modularity and freedom with options (hopefully in the future EVERYTHING will be toggleable)
-A restructure and partial remake of the base game's source code
-Source Code folder abstraction
-More streamlined code (only having to set things in one place)
-AND MORE!
+Colorblind options (regardless of if you are colorblind or not, these still look radical, bro.)
+And more stuff that I don't know of.
 
-I really wanted to make an FNF engine that was easier to work with than any other, mostly because I thought about how messy most other engines including the base game were. That doesn't mean Forever Engine is better than the base game however, Forever is only a tribute to Friday Night Funkin' and its modding community, a small project of mine that I hope people can find enjoyment and use out of!
+Made with respect to the modding community in order to give them something they might enjoy. Are you up 4 the challange!
 
 ----------------------------------------------
-
-ADDITIONS IN 0.3
-
-- Rewritten Hold notes 
-- BPM Changes (credit to NebulaZorua)
-- Rewritten Inputs (Thanks ShadowMario for letting me borrow some of your scripts, it was more of an afterthought tbh)
-- Better camera movement (heavily based on Vs. Sonic.exe)
-- Just general stability and changes to make sure Legacy is at the very least not broken before moving on to 1.0
-
+Yeah
 ----------------------------------------------
 CREDITS:
 ----------------------------------------------
 
+GENERAL CREDITS:
+----------------------------------------------
+Goofgoof43: Creator of Engine
+
+SIG7: has yet to finish writing this
+
+
+FOREVER ENGINE
+CREDITS:
+----------------------------------------------
 [Yoshubs](https://github.com/Yoshubs) - made the engine. she just so happens to be very fucking stupid for accidentally pushing the martian mixtape source code into forever engine's base github page
 
 [Pixloen](https://github.com/PixlJacket) - made a lot of the custom assets that forever engine uses, he also gave me a lot of general advice on how to improve the engine as well as his input on both how to improve upon the base game and how the input system felt and such. ALSO PROGRAMMED SIMPLY JUDGEMENTS AND BACKGROUND DARKEN, He basically co-owns the engine lmao
@@ -72,5 +72,5 @@ Basically, all of the files you need are in the engine itself through the setup.
 If you want some external sources that will better walk you through how to compile the game, look no further than the [base game github](https://github.com/ninjamuffin99/Funkin) and [FNF Source Code Guide](https://gamebanana.com/tuts/13798), I really hope they help you out!
 
 ----------------------------------------------
-Thank you for checking out my engine! Got any questions? DM me at Shubs#0404 on Discord!
+Thank you for checking out the engine! Got any questions, feel free to ask!
 ----------------------------------------------
