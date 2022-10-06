@@ -35,6 +35,15 @@ pause >nul
 title FNF Setup - Installing Psych Engine libraries
 haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
 cls
+title FNF Setup - Installing Lore Engine libraries
+haxelib git polymod https://github.com/larsiusprime/polymod.git
+haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
+haxelib git flixel-shadertoy-shader-lr https://github.com/sayofthelor/flixel-shadertoy-shader-lr
+haxelib install hxCodec
+haxelib install haxeui-core
+haxelib install haxeui-openfl
+cls
 goto UserActions1
 
 :UserActions1
@@ -100,3 +109,10 @@ curl -# -O https://download.visualstudio.microsoft.com/download/pr/3105fcfe-e771
 vs_Community.exe --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows10SDK.19041 -p
 del vs_Community.exe
 goto SkipVSCommunity
+
+set /p menu2="Would you like to confirm the packages are all installed? [Y/N]"
+       if %menu2%==Y goto 1
+       if %menu2%==y goto 1
+       if %menu2%==N exit
+       if %menu2%==n exit
+       cls
