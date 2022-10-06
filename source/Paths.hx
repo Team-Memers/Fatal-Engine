@@ -313,4 +313,9 @@ class Paths
 	{
 		return (FlxAtlasFrames.fromSpriteSheetPacker(image(key, library), file('images/$key.txt', library)));
 	}
+
+	inline static public function psychLua(key:String, ?library:String)
+	{
+		return getPath('$key.psych.lua', TEXT, library);
+	}
 }
