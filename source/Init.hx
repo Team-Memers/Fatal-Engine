@@ -53,7 +53,7 @@ class Init extends FlxState
 		'Controller Mode' => [
 			false,
 			Checkmark,
-			'Whether to use a controller instead of the keyboard to play.',
+			'If you play with a controller, this will make the input to work.',
 			NOT_FORCED
 		],
 		'Auto Pause' => [
