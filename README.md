@@ -22,12 +22,19 @@ And more stuff that I don't know of.
 
 Made with respect to the modding community in order to give them something they might enjoy. Are you up 4 the challange!
 
+How to Compile:
+----------------------------------------------
+Basically, all of the files you need are in the engine itself through the setup/setup.bat file (Huge thanks to [FNF Source Code Guide](https://gamebanana.com/tuts/13798) for the download to the file) except for Visual Studio Code, or whatever program you choose to use to program in the engine. If you've already worked with FNF', this should work perfectly with you and if it doesn't then you might have the wrong target settings, or Lime is probably broken, that's usually what happens with these things, it's happened to me a ton of times lmao. I'm not a very good programmer.
+If you want some external sources that will better walk you through how to compile the game, look no further than the [base game github](https://github.com/ninjamuffin99/Funkin) and [FNF Source Code Guide](https://gamebanana.com/tuts/13798), I really hope they help you out!
+Some libraries are from Psych Engine, which is needed to run some Psych Engine stuff within the engine. I hope this does work, but even then, unless you are a developer, there shouldn't really be a reason to compile.
+
 ----------------------------------------------
 Yeah
 ----------------------------------------------
+
+
 CREDITS:
 ----------------------------------------------
-
 GENERAL CREDITS:
 ----------------------------------------------
 Goofgoof43: Creator of Engine
@@ -38,11 +45,11 @@ SIG7: has yet to finish writing this
 FOREVER ENGINE
 CREDITS:
 ----------------------------------------------
-[Yoshubs](https://github.com/Yoshubs) - made the engine. she just so happens to be very fucking stupid for accidentally pushing the martian mixtape source code into forever engine's base github page
+[Yoshubs](https://github.com/Yoshubs) - made Forever Engine. she just so happens to be very stupid for accidentally pushing the martian mixtape source code into forever engine's base github page
 
-[Pixloen](https://github.com/PixlJacket) - made a lot of the custom assets that forever engine uses, he also gave me a lot of general advice on how to improve the engine as well as his input on both how to improve upon the base game and how the input system felt and such. ALSO PROGRAMMED SIMPLY JUDGEMENTS AND BACKGROUND DARKEN, He basically co-owns the engine lmao
+[Pixloen](https://github.com/PixlJacket) - made a lot of the custom assets that forever engine uses. PROGRAMMED FOREVER ENGINE'S SIMPLY JUDGEMENTS AND BACKGROUND DARKEN.
 
-[Gedehari](https://github.com/gedehari) - BANGER ASS PROGRAMMER, made the freeplay loading thread to avoid lag issues in freeplay, waveform render code (which will be used soon), freaking EXTERNAL SHADER SUPPORT for modcharts when they're a thing and so many other things like the crashlogger. I urge you to check out his project, [Izzy Engine](https://github.com/gedehari/IzzyEngine), which he let me borrow a lot of aspects from which I still owe him for lmao. AWESOME dude I can't stress this enough
+[Gedehari](https://github.com/gedehari) - cool guy, don't feel like editing what was here so check out what he's making, [Izzy Engine](https://github.com/gedehari/IzzyEngine)
 
 [ImCodist](https://github.com/ImCodist) - helped with a couple of pull requests and issue fixes, ALSO MADE THE WHOLE ASS FREAKING DIALOGUE SYSTEM, but, I'm not gonna give him any credit at all, because he stole my obsidian soul in minecraft and I will never forgive him for that!!!!
 
@@ -60,16 +67,10 @@ rest of the rise n' skate team - that mod is the reason im even making an engine
 ----------------------------------------------
 SHOUTOUTS
 ----------------------------------------------
-[HThagomizer](https://github.com/HThagomizer) - not MURDERING ME for accidentally pushing the martian mixtape source code
-
-[Tsuraran](https://twitter.com/_Tsuraran) - DOPE ASS CUSTOM MENU MUSIC INCOMING, also made vs skipper with clockwerk which is fucking hilarious ALSO YEAH I'LL BUMP AS WELL AFTER ITS IN THE ENGINE (YES IM WORKING ON IT TOO LMAO)
-
+[HThagomizer](https://github.com/HThagomizer)
+[Tsuraran](https://twitter.com/_Tsuraran)
 [Clockwerk](https://twitter.com/ClockwerkSmurf) - also made vs skipper, oh my god what were you guys thinking
 ----------------------------------------------
-How to Compile:
-
-Basically, all of the files you need are in the engine itself through the setup.bat (Huge thanks to [FNF Source Code Guide](https://gamebanana.com/tuts/13798) for the download to the file) except for Visual Studio Code, or whatever program you choose to use to program in the engine. If you've already worked with fnf, this should work perfectly with you and if it doesn't then you might have the wrong target settings, or Lime is probably broken, that's usually what happens with these things, it's happened to me a ton of times lmao. I'm not a very good programmer.
-If you want some external sources that will better walk you through how to compile the game, look no further than the [base game github](https://github.com/ninjamuffin99/Funkin) and [FNF Source Code Guide](https://gamebanana.com/tuts/13798), I really hope they help you out!
 
 ----------------------------------------------
 Thank you for checking out the engine! Got any questions, feel free to ask!
