@@ -66,7 +66,7 @@ class DialogueBox extends FlxSpriteGroup
 	///
 	/*
 		Epic Dialogue Documentation!
-
+        Week 6 Reference lmao
 		nothing yet :P
 	 */
 	public var box:FNFSprite;
