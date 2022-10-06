@@ -14,6 +14,7 @@ haxelib install hscript
 haxelib install newgrounds
 haxelib run lime setup
 haxelib install flixel-tools
+haxelib install hxCodec
 title FNF Setup - User action required
 cls
 haxelib run flixel-tools setup
@@ -28,6 +29,9 @@ echo Press any key to install discord rpc.
 pause >nul
 title FNF Setup - Installing libraries
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+cls
+title FNF Setup - Installing Psych Engine libraries
+haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
 cls
 goto UserActions1
 
