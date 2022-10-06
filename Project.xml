@@ -46,7 +46,7 @@
 	<assets path="assets" />
 	<assets path="assets/songs"/>
 	<assets path="assets/music" preload="true"/>
-	<assets path="FE-CrashDialog.exe" type="template" if="windows release" />
+	<assets path="FatalDialog.exe" type="template" if="windows release" />
 
 	<!--<assets path="mods" />-->
 
