@@ -30,6 +30,8 @@ pause >nul
 title FNF Setup - Installing libraries
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 cls
+echo Press Any key to Install Psych Libraries
+pause >nul
 title FNF Setup - Installing Psych Engine libraries
 haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
 cls
