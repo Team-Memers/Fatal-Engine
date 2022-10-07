@@ -54,12 +54,7 @@ class Main extends Sprite
 		[ [songs to use], [characters in songs], [color of week], name of week ]
 	**/
 	public static var gameWeeks:Array<Dynamic> = [
-		[
-			['Test'], 
-			['bf'], 
-			[FlxColor.fromRGB(129, 100, 223)], 
-			'Test'
-	    ],
+        [['Test'], ['gf'], [FlxColor.fromRGB(129, 100, 223)], 'Tutorial - Tutorial'],
 		[
 			['Bopeebo', 'Fresh', 'Dadbattle'],
 			['dad', 'dad', 'dad'],
