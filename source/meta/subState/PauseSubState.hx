@@ -20,7 +20,7 @@ class PauseSubState extends MusicBeatSubState
 {
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 
-	var menuItems:Array<String> = ['Resume', 'Restart Song', 'Exit to menu'];
+	var menuItems:Array<String> = ['Continue', 'Restart', 'Exit'];
 	var curSelected:Int = 0;
 
 	var pauseMusic:FlxSound;
@@ -144,11 +144,11 @@ class PauseSubState extends MusicBeatSubState
 
 			switch (daSelected)
 			{
-				case "Resume":
+				case "Continue":
 					close();
-				case "Restart Song":
+				case "Restart":
 					Main.switchState(this, new PlayState());
-				case "Exit to menu":
+				case "Exit":
 					PlayState.resetMusic();
 					PlayState.deaths = 0;
 
