@@ -1,1 +1,1 @@
-like build html5
+lime build html5
