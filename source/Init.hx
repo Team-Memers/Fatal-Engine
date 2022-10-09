@@ -136,13 +136,20 @@ class Init extends FlxState
 			NOT_FORCED,
 			['StepMania', 'FNF']
 		],
-		"UI Skin" => [
+		"UI Style" => [
+			'Forever Engine',
+			Selector,
+			"Chooses a style for the UI, kind of like Denpa Engine I think.",
+			NOT_FORCED,
+			['Forever Engine', 'FNF', 'TrollEngine']
+		]
+		"UI Judgement Skin" => [
 			'default',
 			Selector,
 			'Choose a UI Skin for judgements, combo, etc.',
 			NOT_FORCED,
 			''
-		],
+		]
 		"Note Skin" => ['default', Selector, 'Choose a note skin.', NOT_FORCED, ''],
 		"Framerate Cap" => [120, Selector, 'Define your maximum FPS.', NOT_FORCED, ['']],
 		"Opaque Arrows" => [
@@ -183,13 +190,6 @@ class Init extends FlxState
 			Checkmark,
 			"Simplifies the judgement animations, displaying only one judgement / rating sprite at a time.",
 			NOT_FORCED
-		],
-		"UI Style" => [
-			'stepmania',
-			Selector,
-			"Chooses a style for the UI, kind of like Denpa Engine I think.",
-			NOT_FORCED,
-			['Forever Engine', 'FNF', 'TrollEngine']
 		]
 	];
 
