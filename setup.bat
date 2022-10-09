@@ -40,7 +40,6 @@ haxelib git polymod https://github.com/larsiusprime/polymod.git
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
 haxelib git flixel-shadertoy-shader-lr https://github.com/sayofthelor/flixel-shadertoy-shader-lr
-haxelib install hxCodec
 haxelib install haxeui-core
 haxelib install haxeui-openfl
 cls

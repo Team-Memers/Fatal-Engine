@@ -178,7 +178,7 @@ class FreeplayState extends MusicBeatState
 		if (songCharacters == null)
 			songCharacters = ['bf'];
 		if (songColor == null)
-			songColor = [FlxColor.WHITE];
+			songColor = [FlxColor.BLACK];
 
 		var num:Array<Int> = [0, 0];
 		for (song in songs)
@@ -289,7 +289,7 @@ class FreeplayState extends MusicBeatState
 
 	function changeSelection(change:Int = 0)
 	{
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
+		FlxG.sound.play(Paths.sound('scrollMenuBeep'), 0.4);
 
 		curSelected += change;
 

@@ -73,5 +73,5 @@ SHOUTOUTS
 ----------------------------------------------
 
 ----------------------------------------------
-Thank you for checking out the engine! Got any questions, feel free to ask!
+Thank you for checking out the engine! Got any questions, feel free to ask Goofgoof43#1726 on Discord!
 ----------------------------------------------
