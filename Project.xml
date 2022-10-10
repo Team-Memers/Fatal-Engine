@@ -49,6 +49,13 @@
 	<assets path="FatalDialog.exe" type="template" if="windows release" />
 
 	<!--<assets path="mods" />-->
+	
+	<!--Some Psych Engine goodies. I feel like it should be good to not mess with these.-->
+	<define name="MODS_ALLOWED" if="desktop" />
+	<define name="LUA_ALLOWED" if="desktop" />
+	<define name="ACHIEVEMENTS_ALLOWED" />
+	<define name="VIDEOS_ALLOWED" if="web || desktop" unless="32bits"/>
+	<define name="CRASH_HANDLER" if="desktop release" />
 
 	<!-- _______________________________ Libraries ______________________________ -->
 
