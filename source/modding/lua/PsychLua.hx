@@ -1,12 +1,9 @@
 package;
 
-#if LUA_ALLOWED
 import llua.Lua;
 import llua.LuaL;
 import llua.State;
 import llua.Convert;
-#end
-
 import animateatlas.AtlasFrameMaker;
 import flixel.FlxG;
 import flixel.addons.effects.FlxTrail;
@@ -31,12 +28,8 @@ import openfl.utils.Assets;
 import flixel.math.FlxMath;
 import flixel.util.FlxSave;
 import flixel.addons.transition.FlxTransitionableState;
-
-#if sys
 import sys.FileSystem;
 import sys.io.File;
-#end
-
 import Type.ValueType;
 import Controls;
 import DialogueBoxPsych;
@@ -47,13 +40,12 @@ import Discord;
 
 using StringTools;
 
-class FunkinLua {
+class PsychLua {
 	public static var Function_Stop:Dynamic = 1;
 	public static var Function_Continue:Dynamic = 0;
 	public static var Function_StopLua:Dynamic = 2;
 
 	//public var errorHandler:String->Void;
-	#if LUA_ALLOWED
 	public var lua:State = null;
 	#end
 	public var camTarget:FlxCamera;
@@ -61,7 +53,6 @@ class FunkinLua {
 	public var closed:Bool = false;
 	
 	public function new(script:String) {
-		#if LUA_ALLOWED
 		lua = LuaL.newstate();
 		LuaL.openlibs(lua);
 		Lua.init_callbacks(lua);
@@ -92,7 +83,7 @@ class FunkinLua {
 
 		trace('lua file loaded succesfully:' + script);
 
-		// Lua shit
+		// Lua crap
 		set('Function_StopLua', Function_StopLua);
 		set('Function_Stop', Function_Stop);
 		set('Function_Continue', Function_Continue);
@@ -100,7 +91,7 @@ class FunkinLua {
 		set('luaDeprecatedWarnings', true);
 		set('inChartEditor', false);
 
-		// Song/Week shit
+		// Song/Week stuff lol
 		set('curBpm', Conductor.bpm);
 		set('bpm', PlayState.SONG.bpm);
 		set('scrollSpeed', PlayState.SONG.speed);
@@ -143,7 +134,7 @@ class FunkinLua {
 		set('rating', 0);
 		set('ratingName', '');
 		set('ratingFC', '');
-		set('version', MainMenuState.psychEngineVersion.trim());
+		set('version', MainMenuState.fatalEngineVersion.trim());
 
 		set('inGameOver', false);
 		set('mustHitSection', false);
@@ -494,7 +485,7 @@ class FunkinLua {
 
 				}
 			}
-			Lua.pushnil(lua);
+			Lua.pushnil(lua); This was already formatted like this so don't blame me for any of this.
 		});*/
 		Lua_helper.add_callback(lua, "isRunning", function(luaFile:String){
 			var cervix = luaFile + ".psych.lua";
@@ -817,6 +808,7 @@ class FunkinLua {
 		});
 
 		// gay ass tweens
+		// ew gay people
 		Lua_helper.add_callback(lua, "doTweenX", function(tag:String, vars:String, value:Dynamic, duration:Float, ease:String) {
 			var penisExam:Dynamic = tweenShit(tag, vars);
 			if(penisExam != null) {
@@ -1185,7 +1177,7 @@ class FunkinLua {
 		{
 			return Reflect.getProperty(FlxG.keys.justReleased, name);
 		});
-
+//do we even have controller support?
 		Lua_helper.add_callback(lua, "anyGamepadJustPressed", function(name:String)
 		{
 			return FlxG.gamepads.anyJustPressed(name);
@@ -1922,10 +1914,8 @@ class FunkinLua {
 		});
 		Lua_helper.add_callback(lua, "startDialogue", function(dialogueFile:String, music:String = null) {
 			var path:String;
-			#if MODS_ALLOWED
 			path = Paths.modsJson(Paths.formatToSongPath(PlayState.SONG.song) + '/' + dialogueFile);
 			if(!FileSystem.exists(path))
-			#end
 				path = Paths.json(Paths.formatToSongPath(PlayState.SONG.song) + '/' + dialogueFile);
 
 			luaTrace('startDialogue: Trying to load dialogue: ' + path);
@@ -1945,7 +1935,7 @@ class FunkinLua {
 					luaTrace('startDialogue: Your dialogue file is badly formatted!', false, false, FlxColor.RED);
 				}
 			} else {
-				luaTrace('startDialogue: Dialogue file not found', false, false, FlxColor.RED);
+				luaTrace('startDialogue: Dialogue not found', false, false, FlxColor.RED);
 				if(PlayState.instance.endingSong) {
 					PlayState.instance.endSong();
 				} else {
@@ -2368,6 +2358,7 @@ class FunkinLua {
 		});
 
 		// DEPRECATED, DONT MESS WITH THESE SHITS, ITS JUST THERE FOR BACKWARD COMPATIBILITY
+					//lol i edited a bit lol
 		Lua_helper.add_callback(lua, "objectPlayAnimation", function(obj:String, name:String, forced:Bool = false, ?startFrame:Int = 0) {
 			luaTrace("objectPlayAnimation is deprecated! Use playAnim instead", false, true);
 			if(PlayState.instance.getLuaObject(obj,false) != null) {
