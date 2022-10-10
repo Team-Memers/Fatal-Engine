@@ -136,20 +136,13 @@ class Init extends FlxState
 			NOT_FORCED,
 			['StepMania', 'FNF']
 		],
-		"UI Style" => [
-			'Forever Engine',
-			Selector,
-			"Chooses a style for the UI, kind of like Denpa Engine I think.",
-			NOT_FORCED,
-			['Forever Engine', 'FNF', 'TrollEngine']
-		]
-		"UI Judgement Skin" => [
+		"UI Skin" => [
 			'default',
 			Selector,
 			'Choose a UI Skin for judgements, combo, etc.',
 			NOT_FORCED,
 			''
-		]
+		],
 		"Note Skin" => ['default', Selector, 'Choose a note skin.', NOT_FORCED, ''],
 		"Framerate Cap" => [120, Selector, 'Define your maximum FPS.', NOT_FORCED, ['']],
 		"Opaque Arrows" => [
@@ -169,7 +162,7 @@ class Init extends FlxState
 		"Custom Titlescreen" => [
 			false,
 			Checkmark,
-			"Enables the Forever Engine Legacy titlescreen! (only effective with a restart)",
+			"Enables the custom Forever Engine titlescreen! (only effective with a restart)",
 			FORCED
 		],
 		'Skip Text' => [
@@ -190,7 +183,7 @@ class Init extends FlxState
 			Checkmark,
 			"Simplifies the judgement animations, displaying only one judgement / rating sprite at a time.",
 			NOT_FORCED
-		]
+		],
 	];
 
 	public static var trueSettings:Map<String, Dynamic> = [];
